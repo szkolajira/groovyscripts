@@ -1,5 +1,3 @@
-package console
-
 import com.atlassian.jira.user.util.UserManager
 import com.atlassian.jira.component.ComponentAccessor
 import com.atlassian.jira.security.login.LoginManager
