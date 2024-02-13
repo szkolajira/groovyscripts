@@ -39,7 +39,7 @@ def transitionTicket(String appUrl, String apiEndpoint, newStatusId) {
     def client = new RESTClient(finalUrl)
 
     client.setHeaders([
-        Authorization      : "Bearer ODc2NjE3MjExNDE4OryU0OY4R4CPk7PM0Kig1bwuXZU/"
+        Authorization      : "Bearer token"
     ])
 
     client.handler.success = { HttpResponseDecorator response, json  ->

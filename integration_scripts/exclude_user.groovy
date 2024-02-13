@@ -8,7 +8,7 @@ def getChange(String url) {
     def client = new RESTClient(url)
 
     client.setHeaders([
-        Authorization      : "Bearer OTYyOTQ4MjM3ODU0OhNldBBpW2XXdoDowsVeE4Y2KrJs"
+        Authorization      : "Bearer token"
         // "X-Atlassian-Token": "no-check"
     ])
 

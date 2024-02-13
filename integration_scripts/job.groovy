@@ -32,7 +32,7 @@ def getChange(issue, String url) {
     def client = new RESTClient(url)
 
     client.setHeaders([
-        Authorization      : "Bearer ODc2NjE3MjExNDE4OryU0OY4R4CPk7PM0Kig1bwuXZU/"
+        Authorization      : "Bearer token"
     ])
 
     client.handler.success = { HttpResponseDecorator response, json  ->
